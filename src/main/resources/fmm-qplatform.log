@@ -1,0 +1,386 @@
+2015-05-28 16:13:45,873 [main][INFO ] sender.EtermSessionConnectPool - 准备初始化 EtermSessionConnectPool
+2015-05-28 16:13:46,350 [main][INFO ] sender.EtermSession - sendCommand cmd = DA
+2015-05-28 16:13:46,993 [main][INFO ] sender.EtermSession - sendCommand result as follows: 
+2015-05-28 16:13:46,993 [main][INFO ] sender.EtermSession - A*      60237   28MAY   1400    12  CAN001  
+B       60237   28MAY   1459    12  CAN098  
+C       AVAIL   
+D       AVAIL   
+E       AVAIL   
+PID   = 83342   HARDCOPY  = 1112
+TIME =  1612    DATE =  28MAY     HOST = CAAC/B 
+AIRLINE = CZ    SYSTEM =  D790B1  APPLICATION =  1 
+
+2015-05-28 16:13:46,993 [main][INFO ] sender.EtermSession - A*      60237   28MAY   1400    12  CAN001  
+B       60237   28MAY   1459    12  CAN098  
+C       AVAIL   
+D       AVAIL   
+E       AVAIL   
+PID   = 83342   HARDCOPY  = 1112
+TIME =  1612    DATE =  28MAY     HOST = CAAC/B 
+AIRLINE = CZ    SYSTEM =  D790B1  APPLICATION =  1 
+
+2015-05-28 16:13:46,993 [main][INFO ] sender.EtermSessionConnectPool - 初始化 EtermSessionConnectPool 完成
+2015-05-28 16:13:47,009 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand cmd = DA
+2015-05-28 16:13:48,946 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand result as follows: 
+2015-05-28 16:13:48,946 [pool-2-thread-1][INFO ] sender.EtermSession - A*      60237   28MAY   1400    12  CAN001  
+B       60237   28MAY   1459    12  CAN098  
+C       AVAIL   
+D       AVAIL   
+E       AVAIL   
+PID   = 83342   HARDCOPY  = 1112
+TIME =  1612    DATE =  28MAY     HOST = CAAC/B 
+AIRLINE = CZ    SYSTEM =  D790B1  APPLICATION =  1 
+
+2015-05-28 16:13:48,946 [pool-2-thread-1][INFO ] business.BaseBusiness - 登录office:CAN001
+2015-05-28 16:13:48,946 [pool-2-thread-1][INFO ] business.BaseBusiness - 配置id为：1
+2015-05-28 16:13:48,946 [pool-2-thread-1][INFO ] business.BaseBusiness - 当前的处理任务如下：
+2015-05-28 16:13:48,946 [pool-2-thread-1][INFO ] business.BaseBusiness - id为:4
+2015-05-28 16:13:48,946 [pool-2-thread-1][INFO ] business.BaseBusiness - q名称为:CH
+2015-05-28 16:13:48,946 [pool-2-thread-1][INFO ] business.BaseBusiness - 处理类为:qtransferProcesserCh
+2015-05-28 16:13:48,963 [pool-2-thread-1][INFO ] business.BaseBusiness - 处理的office表里为:
+2015-05-28 16:13:48,994 [pool-2-thread-1][INFO ] business.BaseBusiness - 处理的office确认为:CAN001
+2015-05-28 16:13:49,010 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand cmd = QT:CAN001
+2015-05-28 16:13:51,276 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand result as follows: 
+2015-05-28 16:13:51,276 [pool-2-thread-1][INFO ] sender.EtermSession -     
+                QT CAN001   
+GQ 3166 9999    RP 5287 9999    CG 0000 2000    CN 0009 2000
+CR 6468 9999    FG 0002 0300    FN 0000 9999    ML 0000 3100
+NS 1897 3560    OP 0107 3000    PR 0018 9999    RC 0000 2000
+SP 0000 0500    SR 0027 9999    TL 6488 6978    UG 0796 1243
+UN 0001 2000    VP 0001 2558    SC 0000 9999    AV 0000 8000
+IH 0000 2272    LS 15693 9999    OR 1390 9999    CP 0000 8000 P     
+RA 1984 3000    GG 0000 0500    KL 0000 0500    CQ 0000 9850
+PF 0000 1000    AF 0000 0580    BS 0007 0500    LK 0000 0500
+CF 0004 3000    SB 1534 1475    FZ 0129 9999    NN 1935 2802
+CS 0000 9999    SL 0002 1130    CH 0350 9999    GZ 0000 5000                   +
+
+2015-05-28 16:13:51,276 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand cmd = pn
+2015-05-28 16:13:52,996 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand result as follows: 
+2015-05-28 16:13:52,996 [pool-2-thread-1][INFO ] sender.EtermSession -                                                                                -
+SS 0001 1000    BG 0000 8000 P  YG 0000 0780    CO 0000 0500
+NO 5417 4677    
+   
+    
+
+2015-05-28 16:13:52,996 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand cmd = QS:CH/CAN001
+2015-05-28 16:13:55,262 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand result as follows: 
+2015-05-28 16:13:55,262 [pool-2-thread-1][INFO ] sender.EtermSession - WORKING Q   
+
+2015-05-28 16:13:55,262 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand cmd = QD:E
+2015-05-28 16:13:57,231 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand result as follows: 
+2015-05-28 16:13:57,231 [pool-2-thread-1][INFO ] sender.EtermSession -     
+
+2015-05-28 16:13:57,247 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand cmd = QT:CAN001
+2015-05-28 16:14:10,075 [main][INFO ] sender.EtermSessionConnectPool - 准备初始化 EtermSessionConnectPool
+2015-05-28 16:14:10,521 [main][INFO ] sender.EtermSession - sendCommand cmd = DA
+2015-05-28 16:14:11,165 [main][INFO ] sender.EtermSession - sendCommand result as follows: 
+2015-05-28 16:14:11,165 [main][INFO ] sender.EtermSession - A*      60237   28MAY   1400    12  CAN001  
+B       60237   28MAY   1459    12  CAN098  
+C       AVAIL   
+D       AVAIL   
+E       AVAIL   
+PID   = 83342   HARDCOPY  = 1112
+TIME =  1612    DATE =  28MAY     HOST = CAAC/B 
+AIRLINE = CZ    SYSTEM =  D790B1  APPLICATION =  1 
+
+2015-05-28 16:14:11,165 [main][INFO ] sender.EtermSession - A*      60237   28MAY   1400    12  CAN001  
+B       60237   28MAY   1459    12  CAN098  
+C       AVAIL   
+D       AVAIL   
+E       AVAIL   
+PID   = 83342   HARDCOPY  = 1112
+TIME =  1612    DATE =  28MAY     HOST = CAAC/B 
+AIRLINE = CZ    SYSTEM =  D790B1  APPLICATION =  1 
+
+2015-05-28 16:14:11,180 [main][INFO ] sender.EtermSessionConnectPool - 初始化 EtermSessionConnectPool 完成
+2015-05-28 16:14:11,196 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand cmd = DA
+2015-05-28 16:14:13,259 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand result as follows: 
+2015-05-28 16:14:13,259 [pool-2-thread-1][INFO ] sender.EtermSession - A*      60237   28MAY   1400    12  CAN001  
+B       60237   28MAY   1459    12  CAN098  
+C       AVAIL   
+D       AVAIL   
+E       AVAIL   
+PID   = 83342   HARDCOPY  = 1112
+TIME =  1612    DATE =  28MAY     HOST = CAAC/B 
+AIRLINE = CZ    SYSTEM =  D790B1  APPLICATION =  1 
+
+2015-05-28 16:14:13,259 [pool-2-thread-1][INFO ] business.BaseBusiness - 登录office:CAN001
+2015-05-28 16:14:13,259 [pool-2-thread-1][INFO ] business.BaseBusiness - 配置id为：1
+2015-05-28 16:14:13,259 [pool-2-thread-1][INFO ] business.BaseBusiness - 当前的处理任务如下：
+2015-05-28 16:14:13,259 [pool-2-thread-1][INFO ] business.BaseBusiness - id为:4
+2015-05-28 16:14:13,259 [pool-2-thread-1][INFO ] business.BaseBusiness - q名称为:CH
+2015-05-28 16:14:13,259 [pool-2-thread-1][INFO ] business.BaseBusiness - 处理类为:qtransferProcesserCh
+2015-05-28 16:14:13,275 [pool-2-thread-1][INFO ] business.BaseBusiness - 处理的office表里为:
+2015-05-28 16:14:13,290 [pool-2-thread-1][INFO ] business.BaseBusiness - 处理的office确认为:CAN001
+2015-05-28 16:14:13,290 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand cmd = QT:CAN001
+2015-05-28 16:14:15,338 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand result as follows: 
+2015-05-28 16:14:15,338 [pool-2-thread-1][INFO ] sender.EtermSession -     
+                QT CAN001   
+GQ 3167 9999    RP 5287 9999    CG 0000 2000    CN 0009 2000
+CR 6468 9999    FG 0002 0300    FN 0000 9999    ML 0000 3100
+NS 1897 3560    OP 0107 3000    PR 0020 9999    RC 0000 2000
+SP 0000 0500    SR 0027 9999    TL 6488 6978    UG 0796 1243
+UN 0001 2000    VP 0002 2558    SC 0000 9999    AV 0000 8000
+IH 0000 2272    LS 15697 9999    OR 1390 9999    CP 0000 8000 P     
+RA 1984 3000    GG 0000 0500    KL 0000 0500    CQ 0000 9850
+PF 0000 1000    AF 0000 0580    BS 0007 0500    LK 0000 0500
+CF 0004 3000    SB 1534 1475    FZ 0129 9999    NN 1935 2802
+CS 0000 9999    SL 0002 1130    CH 0351 9999    GZ 0000 5000                   +
+
+2015-05-28 16:14:15,338 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand cmd = pn
+2015-05-28 16:14:17,276 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand result as follows: 
+2015-05-28 16:14:17,276 [pool-2-thread-1][INFO ] sender.EtermSession -                                                                                -
+SS 0001 1000    BG 0000 8000 P  YG 0000 0780    CO 0000 0500
+NO 5417 4677    
+   
+    
+
+2015-05-28 16:14:17,276 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand cmd = QS:CH/CAN001
+2015-05-28 16:14:19,324 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand result as follows: 
+2015-05-28 16:14:19,340 [pool-2-thread-1][INFO ] sender.EtermSession -  CAN001 S C QUE       (  0350  )  (  0350  ) 2015-05-28 13:04:44
+AIRCRAFT CHANGE 
+IM T/CZ3485/28MAY15/28MAY15/4/CANCKG/324   
+
+    
+
+2015-05-28 16:14:19,340 [pool-2-thread-1][INFO ] parser.CHParser - 当前的屏幕信息解析出来的字段是：
+2015-05-28 16:14:19,340 [pool-2-thread-1][INFO ] parser.CHParser - 变更类型：机型变更
+2015-05-28 16:14:19,340 [pool-2-thread-1][INFO ] parser.CHParser - 航班号：CZ3485
+2015-05-28 16:14:19,340 [pool-2-thread-1][INFO ] parser.CHParser - 起始日期：20150528
+2015-05-28 16:14:19,340 [pool-2-thread-1][INFO ] parser.CHParser - 结束日期：20150528
+2015-05-28 16:14:19,340 [pool-2-thread-1][INFO ] parser.CHParser - 周期：4
+2015-05-28 16:14:19,340 [pool-2-thread-1][INFO ] parser.CHParser - 航段：CANCKG
+2015-05-28 16:14:19,340 [pool-2-thread-1][INFO ] parser.CHParser - 机型：324
+2015-05-28 16:14:19,340 [pool-2-thread-1][INFO ] parser.CHParser - office号：CAN001
+2015-05-28 16:14:19,355 [pool-2-thread-1][INFO ] parser.CHParser - 屏幕:AIRCRAFT CHANGEIM T/CZ3485/28MAY15/28MAY15/4/CANCKG/324   
+
+2015-05-28 16:14:19,355 [pool-2-thread-1][INFO ] ch.Filter1 - chq中航段为：CANCKG
+2015-05-28 16:14:19,355 [pool-2-thread-1][INFO ] ch.Filter1 - chq中航班号 为：CZ3485
+2015-05-28 16:14:19,355 [pool-2-thread-1][INFO ] ch.Filter1 - chq中开始日期为Thu May 28 00:00:00 CST 2015
+2015-05-28 16:14:19,355 [pool-2-thread-1][INFO ] ch.Filter1 - chq中结束日期为Thu May 28 00:00:00 CST 2015
+2015-05-28 16:14:19,433 [pool-2-thread-1][INFO ] ch.Filter1 - 根据解析的信息从q转移表里没有找到对应的转移officeNo,qn处理
+2015-05-28 16:14:19,433 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand cmd = QD
+2015-05-28 16:14:21,372 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand result as follows: 
+2015-05-28 16:14:21,372 [pool-2-thread-1][INFO ] sender.EtermSession -  CAN001 S C QUE       (  0350  )  (  0349  ) 2015-05-28 13:04:47
+TIME CHANGE:1910--->1945
+ SC:T/CZ3452/28MAY/28MAY/4    
+
+    
+
+2015-05-28 16:14:21,403 [pool-2-thread-1][INFO ] parser.CHParser - 当前的屏幕信息解析出来的字段是：
+2015-05-28 16:14:21,404 [pool-2-thread-1][INFO ] parser.CHParser - 变更类型：时刻变更
+2015-05-28 16:14:21,404 [pool-2-thread-1][INFO ] parser.CHParser - 航班号：CZ3452
+2015-05-28 16:14:21,405 [pool-2-thread-1][INFO ] parser.CHParser - 起始日期：20150528
+2015-05-28 16:14:21,405 [pool-2-thread-1][INFO ] parser.CHParser - 结束日期：20150528
+2015-05-28 16:14:21,405 [pool-2-thread-1][INFO ] parser.CHParser - 周期：4
+2015-05-28 16:14:21,405 [pool-2-thread-1][INFO ] parser.CHParser - office号：CAN001
+2015-05-28 16:14:21,405 [pool-2-thread-1][INFO ] parser.CHParser - 屏幕:SC:T/CZ3452/28MAY/28MAY/4    
+
+2015-05-28 16:14:21,405 [pool-2-thread-1][INFO ] ch.Filter1 - chq中航段为：null
+2015-05-28 16:14:21,405 [pool-2-thread-1][INFO ] ch.Filter1 - chq中航班号 为：CZ3452
+2015-05-28 16:14:21,405 [pool-2-thread-1][INFO ] ch.Filter1 - chq中开始日期为Thu May 28 00:00:00 CST 2015
+2015-05-28 16:14:21,405 [pool-2-thread-1][INFO ] ch.Filter1 - chq中结束日期为Thu May 28 00:00:00 CST 2015
+2015-05-28 16:14:21,405 [pool-2-thread-1][INFO ] ch.Filter1 - 根据解析的信息从q转移表里没有找到对应的转移officeNo,qn处理
+2015-05-28 16:14:21,405 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand cmd = QD
+2015-05-28 16:14:23,234 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand result as follows: 
+2015-05-28 16:14:23,234 [pool-2-thread-1][INFO ] sender.EtermSession -  CAN001 S C QUE       (  0350  )  (  0348  ) 2015-05-28 13:04:47
+TIME CHANGE:1910--->1945
+ SC:T/CZ3452/28MAY/28MAY/4    
+
+    
+
+2015-05-28 16:14:23,266 [pool-2-thread-1][INFO ] parser.CHParser - 当前的屏幕信息解析出来的字段是：
+2015-05-28 16:14:23,266 [pool-2-thread-1][INFO ] parser.CHParser - 变更类型：时刻变更
+2015-05-28 16:14:23,267 [pool-2-thread-1][INFO ] parser.CHParser - 航班号：CZ3452
+2015-05-28 16:14:23,267 [pool-2-thread-1][INFO ] parser.CHParser - 起始日期：20150528
+2015-05-28 16:14:23,267 [pool-2-thread-1][INFO ] parser.CHParser - 结束日期：20150528
+2015-05-28 16:14:23,267 [pool-2-thread-1][INFO ] parser.CHParser - 周期：4
+2015-05-28 16:14:23,267 [pool-2-thread-1][INFO ] parser.CHParser - office号：CAN001
+2015-05-28 16:14:23,267 [pool-2-thread-1][INFO ] parser.CHParser - 屏幕:SC:T/CZ3452/28MAY/28MAY/4    
+
+2015-05-28 16:14:23,267 [pool-2-thread-1][INFO ] ch.Filter1 - chq中航段为：null
+2015-05-28 16:14:23,267 [pool-2-thread-1][INFO ] ch.Filter1 - chq中航班号 为：CZ3452
+2015-05-28 16:14:23,267 [pool-2-thread-1][INFO ] ch.Filter1 - chq中开始日期为Thu May 28 00:00:00 CST 2015
+2015-05-28 16:14:23,267 [pool-2-thread-1][INFO ] ch.Filter1 - chq中结束日期为Thu May 28 00:00:00 CST 2015
+2015-05-28 16:14:23,283 [pool-2-thread-1][INFO ] ch.Filter1 - 根据解析的信息从q转移表里没有找到对应的转移officeNo,qn处理
+2015-05-28 16:14:23,283 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand cmd = QD
+2015-05-28 16:14:25,221 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand result as follows: 
+2015-05-28 16:14:25,221 [pool-2-thread-1][INFO ] sender.EtermSession -  CAN001 S C QUE       (  0350  )  (  0347  ) 2015-05-28 13:04:52
+AIRCRAFT CHANGE 
+IM T/CZ3486/28MAY15/28MAY15/4/CKGCAN/324   
+
+    
+
+2015-05-28 16:14:25,254 [pool-2-thread-1][INFO ] parser.CHParser - 当前的屏幕信息解析出来的字段是：
+2015-05-28 16:14:25,254 [pool-2-thread-1][INFO ] parser.CHParser - 变更类型：机型变更
+2015-05-28 16:14:25,255 [pool-2-thread-1][INFO ] parser.CHParser - 航班号：CZ3486
+2015-05-28 16:14:25,255 [pool-2-thread-1][INFO ] parser.CHParser - 起始日期：20150528
+2015-05-28 16:14:25,255 [pool-2-thread-1][INFO ] parser.CHParser - 结束日期：20150528
+2015-05-28 16:14:25,255 [pool-2-thread-1][INFO ] parser.CHParser - 周期：4
+2015-05-28 16:14:25,255 [pool-2-thread-1][INFO ] parser.CHParser - 航段：CKGCAN
+2015-05-28 16:14:25,255 [pool-2-thread-1][INFO ] parser.CHParser - 机型：324
+2015-05-28 16:14:25,255 [pool-2-thread-1][INFO ] parser.CHParser - office号：CAN001
+2015-05-28 16:14:25,255 [pool-2-thread-1][INFO ] parser.CHParser - 屏幕:AIRCRAFT CHANGEIM T/CZ3486/28MAY15/28MAY15/4/CKGCAN/324   
+
+2015-05-28 16:14:25,255 [pool-2-thread-1][INFO ] ch.Filter1 - chq中航段为：CKGCAN
+2015-05-28 16:14:25,255 [pool-2-thread-1][INFO ] ch.Filter1 - chq中航班号 为：CZ3486
+2015-05-28 16:14:25,255 [pool-2-thread-1][INFO ] ch.Filter1 - chq中开始日期为Thu May 28 00:00:00 CST 2015
+2015-05-28 16:14:25,255 [pool-2-thread-1][INFO ] ch.Filter1 - chq中结束日期为Thu May 28 00:00:00 CST 2015
+2015-05-28 16:14:25,270 [pool-2-thread-1][INFO ] ch.Filter1 - 根据解析的信息从q转移表里没有找到对应的转移officeNo,qn处理
+2015-05-28 16:14:25,270 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand cmd = QD
+2015-05-28 16:14:27,318 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand result as follows: 
+2015-05-28 16:14:27,318 [pool-2-thread-1][INFO ] sender.EtermSession -  CAN001 S C QUE       (  0350  )  (  0346  ) 2015-05-28 13:05:24
+TIME CHANGE:1625--->1740
+ SC:T/CZ3791/28MAY/28MAY/4    
+
+    
+
+2015-05-28 16:14:27,350 [pool-2-thread-1][INFO ] parser.CHParser - 当前的屏幕信息解析出来的字段是：
+2015-05-28 16:14:27,351 [pool-2-thread-1][INFO ] parser.CHParser - 变更类型：时刻变更
+2015-05-28 16:14:27,351 [pool-2-thread-1][INFO ] parser.CHParser - 航班号：CZ3791
+2015-05-28 16:14:27,351 [pool-2-thread-1][INFO ] parser.CHParser - 起始日期：20150528
+2015-05-28 16:14:27,351 [pool-2-thread-1][INFO ] parser.CHParser - 结束日期：20150528
+2015-05-28 16:14:27,351 [pool-2-thread-1][INFO ] parser.CHParser - 周期：4
+2015-05-28 16:14:27,351 [pool-2-thread-1][INFO ] parser.CHParser - office号：CAN001
+2015-05-28 16:14:27,351 [pool-2-thread-1][INFO ] parser.CHParser - 屏幕:SC:T/CZ3791/28MAY/28MAY/4    
+
+2015-05-28 16:14:27,351 [pool-2-thread-1][INFO ] ch.Filter1 - chq中航段为：null
+2015-05-28 16:14:27,351 [pool-2-thread-1][INFO ] ch.Filter1 - chq中航班号 为：CZ3791
+2015-05-28 16:14:27,351 [pool-2-thread-1][INFO ] ch.Filter1 - chq中开始日期为Thu May 28 00:00:00 CST 2015
+2015-05-28 16:14:27,351 [pool-2-thread-1][INFO ] ch.Filter1 - chq中结束日期为Thu May 28 00:00:00 CST 2015
+2015-05-28 16:14:27,367 [pool-2-thread-1][INFO ] ch.Filter1 - 根据解析的信息从q转移表里没有找到对应的转移officeNo,qn处理
+2015-05-28 16:14:27,367 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand cmd = QD
+2015-05-28 16:14:29,195 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand result as follows: 
+2015-05-28 16:14:29,195 [pool-2-thread-1][INFO ] sender.EtermSession -  CAN001 S C QUE       (  0350  )  (  0345  ) 2015-05-28 13:06:01
+TIME CHANGE:1925--->2010
+ SC:T/CZ3792/28MAY/28MAY/4    
+
+    
+
+2015-05-28 16:14:29,214 [pool-2-thread-1][INFO ] parser.CHParser - 当前的屏幕信息解析出来的字段是：
+2015-05-28 16:14:29,214 [pool-2-thread-1][INFO ] parser.CHParser - 变更类型：时刻变更
+2015-05-28 16:14:29,215 [pool-2-thread-1][INFO ] parser.CHParser - 航班号：CZ3792
+2015-05-28 16:14:29,215 [pool-2-thread-1][INFO ] parser.CHParser - 起始日期：20150528
+2015-05-28 16:14:29,215 [pool-2-thread-1][INFO ] parser.CHParser - 结束日期：20150528
+2015-05-28 16:14:29,215 [pool-2-thread-1][INFO ] parser.CHParser - 周期：4
+2015-05-28 16:14:29,215 [pool-2-thread-1][INFO ] parser.CHParser - office号：CAN001
+2015-05-28 16:14:29,215 [pool-2-thread-1][INFO ] parser.CHParser - 屏幕:SC:T/CZ3792/28MAY/28MAY/4    
+
+2015-05-28 16:14:29,215 [pool-2-thread-1][INFO ] ch.Filter1 - chq中航段为：null
+2015-05-28 16:14:29,215 [pool-2-thread-1][INFO ] ch.Filter1 - chq中航班号 为：CZ3792
+2015-05-28 16:14:29,215 [pool-2-thread-1][INFO ] ch.Filter1 - chq中开始日期为Thu May 28 00:00:00 CST 2015
+2015-05-28 16:14:29,215 [pool-2-thread-1][INFO ] ch.Filter1 - chq中结束日期为Thu May 28 00:00:00 CST 2015
+2015-05-28 16:14:29,231 [pool-2-thread-1][INFO ] ch.Filter1 - 根据解析的信息从q转移表里没有找到对应的转移officeNo,qn处理
+2015-05-28 16:14:29,231 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand cmd = QD
+2015-05-28 16:14:31,497 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand result as follows: 
+2015-05-28 16:14:31,497 [pool-2-thread-1][INFO ] sender.EtermSession -  CAN001 S C QUE       (  0350  )  (  0344  ) 2015-05-28 13:06:01
+TIME CHANGE:1925--->2010
+ SC:T/CZ3792/28MAY/28MAY/4    
+
+    
+
+2015-05-28 16:14:31,529 [pool-2-thread-1][INFO ] parser.CHParser - 当前的屏幕信息解析出来的字段是：
+2015-05-28 16:14:31,530 [pool-2-thread-1][INFO ] parser.CHParser - 变更类型：时刻变更
+2015-05-28 16:14:31,530 [pool-2-thread-1][INFO ] parser.CHParser - 航班号：CZ3792
+2015-05-28 16:14:31,530 [pool-2-thread-1][INFO ] parser.CHParser - 起始日期：20150528
+2015-05-28 16:14:31,530 [pool-2-thread-1][INFO ] parser.CHParser - 结束日期：20150528
+2015-05-28 16:14:31,530 [pool-2-thread-1][INFO ] parser.CHParser - 周期：4
+2015-05-28 16:14:31,530 [pool-2-thread-1][INFO ] parser.CHParser - office号：CAN001
+2015-05-28 16:14:31,530 [pool-2-thread-1][INFO ] parser.CHParser - 屏幕:SC:T/CZ3792/28MAY/28MAY/4    
+
+2015-05-28 16:14:31,530 [pool-2-thread-1][INFO ] ch.Filter1 - chq中航段为：null
+2015-05-28 16:14:31,530 [pool-2-thread-1][INFO ] ch.Filter1 - chq中航班号 为：CZ3792
+2015-05-28 16:14:31,530 [pool-2-thread-1][INFO ] ch.Filter1 - chq中开始日期为Thu May 28 00:00:00 CST 2015
+2015-05-28 16:14:31,530 [pool-2-thread-1][INFO ] ch.Filter1 - chq中结束日期为Thu May 28 00:00:00 CST 2015
+2015-05-28 16:14:31,546 [pool-2-thread-1][INFO ] ch.Filter1 - 根据解析的信息从q转移表里没有找到对应的转移officeNo,qn处理
+2015-05-28 16:14:31,546 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand cmd = QD
+2015-05-28 16:14:33,375 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand result as follows: 
+2015-05-28 16:14:33,375 [pool-2-thread-1][INFO ] sender.EtermSession -  CAN001 S C QUE       (  0351  )  (  0344  ) 2015-05-28 13:06:01
+TIME CHANGE:2155--->2230
+ SC:T/CZ3792/28MAY/28MAY/4    
+
+    
+
+2015-05-28 16:14:33,407 [pool-2-thread-1][INFO ] parser.CHParser - 当前的屏幕信息解析出来的字段是：
+2015-05-28 16:14:33,407 [pool-2-thread-1][INFO ] parser.CHParser - 变更类型：时刻变更
+2015-05-28 16:14:33,408 [pool-2-thread-1][INFO ] parser.CHParser - 航班号：CZ3792
+2015-05-28 16:14:33,408 [pool-2-thread-1][INFO ] parser.CHParser - 起始日期：20150528
+2015-05-28 16:14:33,408 [pool-2-thread-1][INFO ] parser.CHParser - 结束日期：20150528
+2015-05-28 16:14:33,408 [pool-2-thread-1][INFO ] parser.CHParser - 周期：4
+2015-05-28 16:14:33,408 [pool-2-thread-1][INFO ] parser.CHParser - office号：CAN001
+2015-05-28 16:14:33,408 [pool-2-thread-1][INFO ] parser.CHParser - 屏幕:SC:T/CZ3792/28MAY/28MAY/4    
+
+2015-05-28 16:14:33,408 [pool-2-thread-1][INFO ] ch.Filter1 - chq中航段为：null
+2015-05-28 16:14:33,408 [pool-2-thread-1][INFO ] ch.Filter1 - chq中航班号 为：CZ3792
+2015-05-28 16:14:33,408 [pool-2-thread-1][INFO ] ch.Filter1 - chq中开始日期为Thu May 28 00:00:00 CST 2015
+2015-05-28 16:14:33,408 [pool-2-thread-1][INFO ] ch.Filter1 - chq中结束日期为Thu May 28 00:00:00 CST 2015
+2015-05-28 16:14:33,424 [pool-2-thread-1][INFO ] ch.Filter1 - 根据解析的信息从q转移表里没有找到对应的转移officeNo,qn处理
+2015-05-28 16:14:33,424 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand cmd = QD
+2015-05-28 16:14:35,471 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand result as follows: 
+2015-05-28 16:14:35,471 [pool-2-thread-1][INFO ] sender.EtermSession -  CAN001 S C QUE       (  0351  )  (  0343  ) 2015-05-28 13:06:51
+TIME CHANGE:1515--->1650
+ SC:T/CZ3325/28MAY/28MAY/4    
+
+    
+
+2015-05-28 16:14:35,504 [pool-2-thread-1][INFO ] parser.CHParser - 当前的屏幕信息解析出来的字段是：
+2015-05-28 16:14:35,505 [pool-2-thread-1][INFO ] parser.CHParser - 变更类型：时刻变更
+2015-05-28 16:14:35,505 [pool-2-thread-1][INFO ] parser.CHParser - 航班号：CZ3325
+2015-05-28 16:14:35,505 [pool-2-thread-1][INFO ] parser.CHParser - 起始日期：20150528
+2015-05-28 16:14:35,505 [pool-2-thread-1][INFO ] parser.CHParser - 结束日期：20150528
+2015-05-28 16:14:35,505 [pool-2-thread-1][INFO ] parser.CHParser - 周期：4
+2015-05-28 16:14:35,505 [pool-2-thread-1][INFO ] parser.CHParser - office号：CAN001
+2015-05-28 16:14:35,505 [pool-2-thread-1][INFO ] parser.CHParser - 屏幕:SC:T/CZ3325/28MAY/28MAY/4    
+
+2015-05-28 16:14:35,505 [pool-2-thread-1][INFO ] ch.Filter1 - chq中航段为：null
+2015-05-28 16:14:35,505 [pool-2-thread-1][INFO ] ch.Filter1 - chq中航班号 为：CZ3325
+2015-05-28 16:14:35,505 [pool-2-thread-1][INFO ] ch.Filter1 - chq中开始日期为Thu May 28 00:00:00 CST 2015
+2015-05-28 16:14:35,505 [pool-2-thread-1][INFO ] ch.Filter1 - chq中结束日期为Thu May 28 00:00:00 CST 2015
+2015-05-28 16:14:35,520 [pool-2-thread-1][INFO ] ch.Filter1 - 根据解析的信息从q转移表里没有找到对应的转移officeNo,qn处理
+2015-05-28 16:14:35,520 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand cmd = QD
+2015-05-28 16:14:37,240 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand result as follows: 
+2015-05-28 16:14:37,240 [pool-2-thread-1][INFO ] sender.EtermSession -  CAN001 S C QUE       (  0351  )  (  0342  ) 2015-05-28 13:07:22
+TIME CHANGE:1710--->1850
+ SC:T/CZ3326/28MAY/28MAY/4    
+
+    
+
+2015-05-28 16:14:37,272 [pool-2-thread-1][INFO ] parser.CHParser - 当前的屏幕信息解析出来的字段是：
+2015-05-28 16:14:37,273 [pool-2-thread-1][INFO ] parser.CHParser - 变更类型：时刻变更
+2015-05-28 16:14:37,273 [pool-2-thread-1][INFO ] parser.CHParser - 航班号：CZ3326
+2015-05-28 16:14:37,273 [pool-2-thread-1][INFO ] parser.CHParser - 起始日期：20150528
+2015-05-28 16:14:37,273 [pool-2-thread-1][INFO ] parser.CHParser - 结束日期：20150528
+2015-05-28 16:14:37,273 [pool-2-thread-1][INFO ] parser.CHParser - 周期：4
+2015-05-28 16:14:37,273 [pool-2-thread-1][INFO ] parser.CHParser - office号：CAN001
+2015-05-28 16:14:37,273 [pool-2-thread-1][INFO ] parser.CHParser - 屏幕:SC:T/CZ3326/28MAY/28MAY/4    
+
+2015-05-28 16:14:37,273 [pool-2-thread-1][INFO ] ch.Filter1 - chq中航段为：null
+2015-05-28 16:14:37,273 [pool-2-thread-1][INFO ] ch.Filter1 - chq中航班号 为：CZ3326
+2015-05-28 16:14:37,273 [pool-2-thread-1][INFO ] ch.Filter1 - chq中开始日期为Thu May 28 00:00:00 CST 2015
+2015-05-28 16:14:37,273 [pool-2-thread-1][INFO ] ch.Filter1 - chq中结束日期为Thu May 28 00:00:00 CST 2015
+2015-05-28 16:14:37,273 [pool-2-thread-1][INFO ] ch.Filter1 - 根据解析的信息从q转移表里没有找到对应的转移officeNo,qn处理
+2015-05-28 16:14:37,273 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand cmd = QD
+2015-05-28 16:14:39,352 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand result as follows: 
+2015-05-28 16:14:39,352 [pool-2-thread-1][INFO ] sender.EtermSession -  CAN001 S C QUE       (  0351  )  (  0341  ) 2015-05-28 13:25:37
+AIRCRAFT CHANGE 
+IM T/MF8317/29MAY15/29MAY15/5/55   
+
+    
+
+2015-05-28 16:14:39,400 [pool-2-thread-1][INFO ] parser.CHParser - 当前的屏幕信息解析出来的字段是：
+2015-05-28 16:14:39,400 [pool-2-thread-1][INFO ] parser.CHParser - 变更类型：机型变更
+2015-05-28 16:14:39,401 [pool-2-thread-1][INFO ] parser.CHParser - 航班号：MF8317
+2015-05-28 16:14:39,401 [pool-2-thread-1][INFO ] parser.CHParser - 起始日期：20150529
+2015-05-28 16:14:39,401 [pool-2-thread-1][INFO ] parser.CHParser - 结束日期：20150529
+2015-05-28 16:14:39,401 [pool-2-thread-1][INFO ] parser.CHParser - 周期：5
+2015-05-28 16:14:39,401 [pool-2-thread-1][INFO ] parser.CHParser - 航段：null
+2015-05-28 16:14:39,401 [pool-2-thread-1][INFO ] parser.CHParser - 机型：55
+2015-05-28 16:14:39,401 [pool-2-thread-1][INFO ] parser.CHParser - office号：CAN001
+2015-05-28 16:14:39,401 [pool-2-thread-1][INFO ] parser.CHParser - 屏幕:AIRCRAFT CHANGEIM T/MF8317/29MAY15/29MAY15/5/55   
+
+2015-05-28 16:14:39,401 [pool-2-thread-1][INFO ] ch.Filter1 - chq中航段为：null
+2015-05-28 16:14:39,401 [pool-2-thread-1][INFO ] ch.Filter1 - chq中航班号 为：MF8317
+2015-05-28 16:14:39,401 [pool-2-thread-1][INFO ] ch.Filter1 - chq中开始日期为Fri May 29 00:00:00 CST 2015
+2015-05-28 16:14:39,401 [pool-2-thread-1][INFO ] ch.Filter1 - chq中结束日期为Fri May 29 00:00:00 CST 2015
+2015-05-28 16:14:39,401 [pool-2-thread-1][INFO ] ch.Filter1 - 根据解析的信息从q转移表里没有找到对应的转移officeNo,qn处理
+2015-05-28 16:14:39,401 [pool-2-thread-1][INFO ] sender.EtermSession - sendCommand cmd = QD

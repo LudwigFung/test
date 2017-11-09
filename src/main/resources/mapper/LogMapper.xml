@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.csair.testlog.mapper.LogMapper">
+
+    <select id="queryLog" resultType="AppLog">
+        SELECT LIMIT #{page} 10 log_id, log_time, thread_name, log_level, class_name, log_info FROM app_log
+        WHERE
+            log_time BETWEEN #{timeStart} AND #{timeEnd} AND
+            log_level = #{level} AND
+            class_name = #{className} AND
+            log_info LIKE #{info}
+    </select>
+
+    <select id="queryCount" resultType="int">
+        SELECT count(1) FROM app_log
+        WHERE
+            log_time BETWEEN #{timeStart} AND #{timeEnd} AND
+            log_level = #{level} AND
+            class_name = #{className} AND
+            log_info LIKE #{info}
+    </select>
+
+</mapper>
